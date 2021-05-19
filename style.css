@@ -1,0 +1,79 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    /* background: rgb(201, 201, 201); */
+}
+
+.main {
+    position: absolute;
+    height: 408px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.out {
+    text-align: right;
+    background: rgb(199, 199, 199);
+}
+
+#result {
+    position: absolute;
+    right: 3px;
+    height: 127px;
+    bottom: 7px;
+}
+
+#decimal {
+    position: absolute;
+    right: 71px;
+}
+
+#zero {
+    position: absolute;
+    width: 128px;
+    height: 60px;
+}
+#spot {
+    position: absolute;
+    right: 71px;
+}
+#alike {
+    position: absolute;
+    right: 2px
+}
+
+.container {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main {
+    position: relative;
+    top: 15vh;
+}
+
+.result input {
+    width: 256px;
+    height: 50px;
+    font-size: 30px;
+    margin: 5px;
+}
+
+button:hover {
+    background: rgb(156, 182, 223);
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.clear:hover {
+    background: red;
+}
